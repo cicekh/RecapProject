@@ -1,0 +1,14 @@
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\Bussiness.deps.json
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\Bussiness.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\Bussiness.pdb
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.csprojAssemblyReference.cache
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.AssemblyInfoInputs.cache
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.AssemblyInfo.cs
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.csproj.CopyComplete
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\Bussiness\obj\Debug\netstandard2.0\Bussiness.pdb
