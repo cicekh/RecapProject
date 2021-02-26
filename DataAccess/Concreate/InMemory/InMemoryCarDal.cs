@@ -2,11 +2,12 @@
 using Entities.Concreate;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concreate.InMemory
 {
-    public class InMemoryCarDal : CarDal
+    public class InMemoryCarDal : ICarDal
     {
         List<Car> _cars;
         public InMemoryCarDal()
@@ -34,10 +35,20 @@ namespace DataAccess.Concreate.InMemory
             return _cars;
         }
 
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public Car GetById(int id)
         {
             Console.WriteLine("Car selected!");
             return new Car();
+        }
+
+        public Car GetById(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)
