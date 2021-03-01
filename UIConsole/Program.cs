@@ -13,6 +13,20 @@ namespace UIConsole
             //in memory çalışmak için
             //InMemoryCarDal_TestMetod(); 
 
+            //ColorManagerTest();
+
+            //CarsDetailDto nun testini yapalım...
+
+            CarManager carManager = new CarManager(new EfCarDal());
+            foreach (var item in carManager.GetCarsDetails())
+            {
+                Console.WriteLine("{0} / {1} / {2} / {3}",item.CarName,item.BrandName,item.ColorName,item.DailyPrice);
+            }
+
+        }
+
+        private static void ColorManagerTest()
+        {
             ColorManager colorManager = new ColorManager(new EfColorDal());
             foreach (var color in colorManager.GetAll())
             {
