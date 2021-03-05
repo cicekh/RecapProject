@@ -18,20 +18,20 @@ namespace UIConsole
             //CarsDetailDto nun testini yapalım...
 
             CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var item in carManager.GetCarsDetails())
-            {
-                Console.WriteLine("{0} / {1} / {2} / {3}",item.CarName,item.BrandName,item.ColorName,item.DailyPrice);
-            }
+            //foreach (var item in carManager.GetCarsDetails())
+            //{
+            //    Console.WriteLine("{0} / {1} / {2} / {3}",item.CarName,item.BrandName,item.ColorName,item.DailyPrice);
+            //}
 
         }
 
         private static void ColorManagerTest()
         {
             ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach (var color in colorManager.GetAll())
-            {
-                Console.WriteLine("Açıklama:" + color.Name);
-            }
+            //foreach (var color in colorManager.GetAll())
+            //{
+            //    Console.WriteLine("Açıklama:" + color.Name);
+            //}
             //Console.WriteLine(Environment.MachineName+"###"+ Environment.UserDomainName + "###" + Environment.UserName + "###" + Environment.OSVersion + "###" + Environment.Version + "###" + Environment.WorkingSet);
             Console.WriteLine("araç açıklamaları listelendi.");
         }
@@ -39,10 +39,10 @@ namespace UIConsole
         private static void InMemoryCarDal_TestMetod()
         {
             CarManager carManager = new CarManager(new InMemoryCarDal());
-            foreach (var car in carManager.GetAll())
-            {
-                Console.WriteLine("Açıklama:" + car.Description);
-            }
+            //foreach (var car in carManager.GetAll())
+            //{
+            //    Console.WriteLine("Açıklama:" + car.Description);
+            //}
         }
     }
 }

@@ -42,5 +42,6 @@ namespace Bussiness.Constants
         public static string MaintenanceTime = "Sistem bakımda";
 
         public static string CarSelected { get; internal set; }
+        public static string SelectedCarWithColor { get; internal set; }
     }
 }
