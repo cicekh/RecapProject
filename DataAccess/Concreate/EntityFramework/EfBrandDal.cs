@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace DataAccess.Concreate.EntityFramework
 {
-    public class EfBrandDal : EfEntityRepositoryBase<Brand,ReCapContext>, IBrandDal
+    public class EfBrandDal : EfEntityRepositoryBase<Brand, ReCapContext>, IBrandDal
     {
         //Artık bunlar EfEntityRepositoryBase'deki IEntitiyRepository den gelecek artık.
         //public void Add(Brand entity)
@@ -21,7 +21,6 @@ namespace DataAccess.Concreate.EntityFramework
         //        var addedBrand = context.Entry(entity);
         //        addedBrand.State = EntityState.Added;
         //        context.SaveChanges();
-        //    }
         //}
 
         //public void Delete(Brand entity)
@@ -29,6 +28,7 @@ namespace DataAccess.Concreate.EntityFramework
         //    using (ReCapContext context = new ReCapContext())
         //    {
         //        var deletedBrand = context.Entry(entity);
+         
         //        deletedBrand.State = EntityState.Deleted;
         //        context.SaveChanges();
         //    }
@@ -59,5 +59,6 @@ namespace DataAccess.Concreate.EntityFramework
         //        context.SaveChanges();
         //    }
         //}
+     
     }
 }
