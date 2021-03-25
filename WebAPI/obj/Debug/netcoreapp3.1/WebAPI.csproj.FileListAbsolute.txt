@@ -70,3 +70,6 @@ C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\C
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll

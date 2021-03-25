@@ -1,5 +1,7 @@
 ﻿using Bussiness.Abstract;
 using Bussiness.Constants;
+using Bussiness.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concreate;
@@ -18,17 +20,13 @@ namespace Bussiness.Concreate
             _carDal = carDal;
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            if (car.Name.Length > 1)
-            {
-                if (car.DailyPrice > 0)
-                {
-                    _carDal.Add(car);
-                    return new SuccessResult(Messages.CarAdded);
-                }
-            }
-            return new ErrorResult(Messages.CarAddedError);
+
+            _carDal.Add(car);
+            return new SuccessResult(Messages.CarAdded);
+
         }
 
         public IResult Delete(Car car)
@@ -49,7 +47,7 @@ namespace Bussiness.Concreate
 
         public IDataResult<Car> GetById(int id)
         {
-            return new SuccessDataResult<Car>(_carDal.GetById(c => c.Id == id),Messages.CarSelected);
+            return new SuccessDataResult<Car>(_carDal.GetById(c => c.Id == id), Messages.CarSelected);
         }
 
         public IDataResult<List<Car>> GetCarsByBrandId(int Id)
@@ -59,7 +57,7 @@ namespace Bussiness.Concreate
 
         public IDataResult<List<Car>> GetCarsByColorId(int Id)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == Id),Messages.SelectedCarWithColor);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == Id), Messages.SelectedCarWithColor);
         }
 
         public IDataResult<List<CarDetailDto>> GetCarsDetails()

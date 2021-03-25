@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using FluentValidation;
 using System.Linq;
+using Core.CrossCuttingConcerns.Validation;
 
 namespace Core.Aspects.Autofac.Validation
 {
