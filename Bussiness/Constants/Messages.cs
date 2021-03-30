@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Constants
+namespace Business.Constants
 {
     public class Messages
     {
@@ -13,7 +13,6 @@ namespace Bussiness.Constants
         public static string CarDeletedError = "Araç silme hatası";
         public static string CarUpdated = "Araç güncellendi";
         public static string CarUpdatedError = "Araç güncelleme hatası";
-
         public static string BrandAdded = "Marka eklendi";
         public static string BrandDeleted = "Marka silindi";
         public static string BrandUpdated = "Marka güncellendi";
@@ -22,7 +21,6 @@ namespace Bussiness.Constants
         public static string ColorUpdated = "Renk güncellendi";
         public static string ColorsListed = "Renkler listelendi";
         public static string ColorChoosed = "Renk seçildi";
-
         public static string UserAdded = "Kullanıcı eklendi";
         public static string DeletedUser = "Kullanıcı silindi";
         public static string UserSelected = "Kullanıcı seçildi";
@@ -38,10 +36,14 @@ namespace Bussiness.Constants
         public static string CustomerUpdated = "Müşteri güncellendi";
         public static string CustomersListed = "Müşteriler listelendi";
         public static string CustomerSelected = "Müşteri seçildi";
-
         public static string MaintenanceTime = "Sistem bakımda";
-
-        public static string CarSelected { get; internal set; }
-        public static string SelectedCarWithColor { get; internal set; }
+        public static string CarSelected = "Araç seçildi";
+        public static string SelectedCarWithColor = "Belirttiğiniz renkteki araçlar getirildi";
+        public static string CarImageAdded = "Araç görseli eklendi";
+        public static string CarImageLimitExceeded = "Araç görseli limiti aşıldı";
+        public static string CarImageDeletedFromSource = "Araç görseli kaynaktan silindi";
+        public static string CarImageDeletedFromDB = "Araç görseli Db'den silindi";
+        public static string carImageUpdated = "Araç görseli güncellendi";
+        public static string ImagesofTheCarListed = "Araca ait görseller listelendi";
     }
 }

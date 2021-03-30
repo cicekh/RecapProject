@@ -1,6 +1,6 @@
-﻿using Bussiness.Abstract;
-using Bussiness.Constants;
-using Bussiness.ValidationRules.FluentValidation;
+﻿using Business.Abstract;
+using Business.Constants;
+using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -9,7 +9,7 @@ using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 
-namespace Bussiness.Concreate
+namespace Business.Concreate
 {
     public class CarManager : ICarService
     {

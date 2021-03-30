@@ -2183,7 +2183,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bussiness/1.0.0": {
+      "Business/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2193,10 +2193,10 @@
           "Entities": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Bussiness.dll": {}
+          "bin/placeholder/Business.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bussiness.dll": {}
+          "bin/placeholder/Business.dll": {}
         }
       },
       "Core/1.0.0": {
@@ -7195,10 +7195,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Bussiness/1.0.0": {
+    "Business/1.0.0": {
       "type": "project",
-      "path": "../Bussiness/Bussiness.csproj",
-      "msbuildProject": "../Bussiness/Bussiness.csproj"
+      "path": "../Bussiness/Business.csproj",
+      "msbuildProject": "../Bussiness/Business.csproj"
     },
     "Core/1.0.0": {
       "type": "project",
@@ -7220,7 +7220,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Autofac >= 6.1.0",
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
-      "Bussiness >= 1.0.0",
+      "Business >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -7254,8 +7254,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj": {
-              "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj"
+            "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj": {
+              "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj"
             },
             "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"

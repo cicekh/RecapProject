@@ -7760,9 +7760,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj",
-      "projectName": "Bussiness",
-      "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj",
+      "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
+      "projectName": "Business",
+      "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
       "packagesPath": "C:\\Users\\elektr-yay10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\obj\\",
       "projectStyle": "PackageReference",

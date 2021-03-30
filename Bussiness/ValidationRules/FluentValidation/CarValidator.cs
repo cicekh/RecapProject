@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.ValidationRules.FluentValidation
+namespace Business.ValidationRules.FluentValidation
 {
     public class CarValidator:AbstractValidator<Car>
     {

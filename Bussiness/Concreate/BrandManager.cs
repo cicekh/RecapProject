@@ -1,5 +1,5 @@
-﻿using Bussiness.Abstract;
-using Bussiness.Constants;
+﻿using Business.Abstract;
+using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concreate;
@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Concreate
+namespace Business.Concreate
 {
     public class BrandManager : IBrandService
     {

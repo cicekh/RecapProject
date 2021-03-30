@@ -26,7 +26,7 @@
         "dependencies": {
           "Autofac": "6.1.0",
           "Autofac.Extensions.DependencyInjection": "7.1.0",
-          "Bussiness": "1.0.0",
+          "Business": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
@@ -1761,7 +1761,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Bussiness/1.0.0": {
+      "Business/1.0.0": {
         "dependencies": {
           "Autofac": "6.1.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
@@ -1769,10 +1769,10 @@
           "Entities": "1.0.0"
         },
         "runtime": {
-          "Bussiness.dll": {}
+          "Business.dll": {}
         },
         "compile": {
-          "Bussiness.dll": {}
+          "Business.dll": {}
         }
       },
       "Core/1.0.0": {
@@ -4488,7 +4488,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Bussiness/1.0.0": {
+    "Business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -4,12 +4,12 @@
     "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj": {
+    "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj",
-        "projectName": "Bussiness",
-        "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj",
+        "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
         "packagesPath": "C:\\Users\\elektr-yay10\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
@@ -320,8 +320,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj": {
-                "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Bussiness.csproj"
+              "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj": {
+                "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj"
               },
               "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
