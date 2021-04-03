@@ -4,14 +4,14 @@
     "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj": {
+    "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj",
+        "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\elektr-yay10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\obj\\",
+        "outputPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -138,11 +138,19 @@
               "target": "Package",
               "version": "[3.1.12, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
             }
           },
           "imports": [
@@ -320,8 +328,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj": {
-                "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Bussiness\\Business.csproj"
+              "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Business\\Business.csproj"
               },
               "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"

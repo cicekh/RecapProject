@@ -36,7 +36,6 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
-          
 
             app.UseHttpsRedirection();
 

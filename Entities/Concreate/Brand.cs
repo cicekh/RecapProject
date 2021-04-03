@@ -1,6 +1,5 @@
 ﻿using Core.Entities;
 
-
 namespace Entities.Concreate
 {
     public class Brand:IEntity

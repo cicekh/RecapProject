@@ -1,12 +1,6 @@
 ﻿using DataAccess.Abstract;
 using Entities.Concreate;
 using Core.DataAccess.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using Microsoft.EntityFrameworkCore;
-using System.Text;
-using System.Linq;
 
 
 namespace DataAccess.Concreate.EntityFramework
