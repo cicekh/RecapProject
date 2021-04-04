@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Concreate;
+using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
@@ -47,5 +48,14 @@ namespace Business.Constants
         public static string carImageUpdated = "Araç görseli güncellendi";
         public static string ImagesofTheCarListed = "Araca ait görseller listelendi";
         public static string AuthorizationDenied ="Yetkiniz yoktur";
+        public static string UserRegistered="Kullanıcı kaydedildi";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Giriş başarılı";
+        public static string UserAlreadyExists = "Kullanıcı mevcut";
+        public static string AccessTokenCreated = "Erişim anahtarı oluşturuldu";
+        public static string UserByThisEmail = "Mailine ait kullanıcı bilgileri";
+        public static string UserWithThisMail = "Mail adresine sahip kullanıcı getirildi";
+        public static string ClaimsCrossChecked = "Kullanıcı Claim'leri çekildi";
     }
 }

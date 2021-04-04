@@ -1,5 +1,7 @@
-﻿using Core.Utilities.Results;
-using Entities.Concreate;
+﻿using Core.Entities.Concreate;
+using Core.Utilities.Results;
+using Core.Utilities.Security.JWT;
+using Entities.DTOs;
 
 namespace Business.Abstract
 {
@@ -11,4 +13,3 @@ namespace Business.Abstract
         IDataResult<AccessToken> CreateAccessToken(User user);
     }
 }
- 

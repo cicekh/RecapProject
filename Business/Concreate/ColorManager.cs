@@ -11,7 +11,7 @@ namespace Business.Concreate
 {
     public class ColorManager : IColorService
     {
-        IColorDal _colorDal;
+        readonly IColorDal _colorDal;
 
         public ColorManager(IColorDal colorDal)
         {
@@ -38,7 +38,7 @@ namespace Business.Concreate
 
         public IDataResult<Color> GetById(int Id)
         {
-            return new SuccessDataResult<Color>(_colorDal.GetById(c => c.Id == Id), Messages.ColorChoosed);
+            return new SuccessDataResult<Color>(_colorDal.GetByPropertyOf(c => c.Id == Id), Messages.ColorChoosed);
         }
 
         public IResult Update(Color color)

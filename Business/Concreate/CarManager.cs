@@ -13,7 +13,7 @@ namespace Business.Concreate
 {
     public class CarManager : ICarService
     {
-        ICarDal _carDal;
+        readonly ICarDal _carDal;
 
         public CarManager(ICarDal carDal)
         {
@@ -47,7 +47,7 @@ namespace Business.Concreate
 
         public IDataResult<Car> GetById(int id)
         {
-            return new SuccessDataResult<Car>(_carDal.GetById(c => c.Id == id), Messages.CarSelected);
+            return new SuccessDataResult<Car>(_carDal.GetByPropertyOf(c => c.Id == id), Messages.CarSelected);
         }
 
         public IDataResult<List<Car>> GetCarsByBrandId(int Id)

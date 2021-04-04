@@ -5,11 +5,21 @@ using System.Linq;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Core.Entities.Concreate;
 
 namespace DataAccess.Concreate.EntityFramework
 {
     public class EfUserDal : EfEntityRepositoryBase<User, ReCapContext>, IUserDal
     {
+        public User GetByEmail(string Email)
+        {
+            using (var context = new ReCapContext())
+            {
+                User result = context.User.SingleOrDefault(user => user.Email == Email);
+                return result;
+            }
+        }
+
         public List<OperationClaim> GetClaims(User user)
         {
             using (var context = new ReCapContext())

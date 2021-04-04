@@ -11,7 +11,7 @@ namespace Business.Concreate
 {
     public class CustomerManager : ICustomerService
     {
-        ICustomerDal _customerDal;
+        readonly ICustomerDal _customerDal;
 
         public CustomerManager(ICustomerDal customerDal)
         {
@@ -32,7 +32,7 @@ namespace Business.Concreate
 
         public IDataResult<Customer> GetById(int Id)
         {
-            return new SuccessDataResult<Customer>(_customerDal.GetById(c => c.UserId == Id),Messages.CustomerSelected);
+            return new SuccessDataResult<Customer>(_customerDal.GetByPropertyOf(c => c.UserId == Id),Messages.CustomerSelected);
         }
 
         public IDataResult<List<Customer>> GetlAll()

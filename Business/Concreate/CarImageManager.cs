@@ -17,7 +17,7 @@ namespace Business.Concreate
 {
     public class CarImageManager : ICarImageService
     {
-        IPhotoDal _photoDal;
+        readonly IPhotoDal _photoDal;
 
         public CarImageManager(IPhotoDal photoDal)
         {
@@ -62,12 +62,12 @@ namespace Business.Concreate
 
         public IDataResult<Photo> GetById(int carId)
         {
-            return new SuccessDataResult<Photo>(_photoDal.GetById(p => p.CarId == carId));
+            return new SuccessDataResult<Photo>(_photoDal.GetByPropertyOf(p => p.CarId == carId));
         }
 
         public IResult Update(IFormFile file, Photo carImage)
         {
-            var oldImagePath = _photoDal.GetById(p => p.Id == carImage.Id).ImagePath;
+            var oldImagePath = _photoDal.GetByPropertyOf(p => p.Id == carImage.Id).ImagePath;
             _photoDal.Update(carImage);
             FileHelper.Update(oldImagePath, file);
             return new SuccessResult(Messages.carImageUpdated);

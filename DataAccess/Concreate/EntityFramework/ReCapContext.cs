@@ -1,8 +1,7 @@
-﻿using Entities.Concreate;
+﻿using Core.Entities.Concreate;
+using Entities.Concreate;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace DataAccess.Concreate.EntityFramework
 {

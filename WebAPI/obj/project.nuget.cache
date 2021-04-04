@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tYUdMrG+jKzDCSp1F6HgShHHAvZE6jFloCMoJV221g5rLeefsQrQMLfWWR+VtkqHiKZn2f9ay5nZSqdQtBp9AA==",
+  "dgSpecHash": "0Ez6CLWkx8W0fYMQFFfcpo4b7p/N2FheTHVHiSpK03enxvNT2ul4unhaIue6WBzOaG4MGv+1rYuvQJftdYocqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\elektr-yay10\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\elektr-yay10\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\elektr-yay10\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.13\\microsoft.aspnetcore.authentication.jwtbearer.3.1.13.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.connections.abstractions\\2.2.0\\microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.diagnostics\\2.2.0\\microsoft.aspnetcore.diagnostics.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.diagnostics.abstractions\\2.2.0\\microsoft.aspnetcore.diagnostics.abstractions.2.2.0.nupkg.sha512",

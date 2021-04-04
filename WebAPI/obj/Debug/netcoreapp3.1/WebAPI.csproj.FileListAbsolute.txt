@@ -11,7 +11,6 @@ C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\W
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
-C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
@@ -70,6 +69,8 @@ C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\W
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
-C:\Users\elektr-yay10\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache

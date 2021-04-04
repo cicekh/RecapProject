@@ -9,7 +9,7 @@ namespace DataAccess.Concreate.InMemory
 {
     public class InMemoryCarDal : ICarDal
     {
-        List<Car> _cars;
+        readonly List<Car> _cars;
         public InMemoryCarDal()
         {
             _cars = new List<Car> {
@@ -40,13 +40,7 @@ namespace DataAccess.Concreate.InMemory
             throw new NotImplementedException();
         }
 
-        public Car GetById(int id)
-        {
-            Console.WriteLine("Car selected!");
-            return new Car();
-        }
-
-        public Car GetById(Expression<Func<Car, bool>> filter)
+        public Car GetByPropertyOf(Expression<Func<Car, bool>> filter)
         {
             throw new NotImplementedException();
         }

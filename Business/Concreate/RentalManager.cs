@@ -11,7 +11,7 @@ namespace Business.Concreate
 {
     public class RentalManager : IRentalService
     {
-        IRentalDal _rentalDal;
+        readonly IRentalDal _rentalDal;
 
         public RentalManager(IRentalDal rentalDal)
         {
@@ -32,7 +32,7 @@ namespace Business.Concreate
 
         public IDataResult<Rental> GetById(int Id)
         {
-            return new SuccessDataResult<Rental>(_rentalDal.GetById(r => r.Id == Id),Messages.RentalSelected);
+            return new SuccessDataResult<Rental>(_rentalDal.GetByPropertyOf(r => r.Id == Id),Messages.RentalSelected);
         }
 
         public IDataResult<List<Rental>> GetlAll()

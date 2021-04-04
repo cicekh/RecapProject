@@ -1,17 +1,17 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Core.Entities.Concreate;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
-using Entities.Concreate;
 using System;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace Business.Concreate
 {
     public class UserManager : IUserService
     {
-        IUserDal _userDal;
+        readonly IUserDal _userDal;
 
         public UserManager(IUserDal userDal)
         {
@@ -33,7 +33,17 @@ namespace Business.Concreate
 
         public IDataResult<User> GetById(int Id)
         {
-            return new SuccessDataResult<User>(_userDal.GetById(u => u.Id == Id), Messages.UserSelected);
+            return new SuccessDataResult<User>(_userDal.GetBy(u => u.Id == Id), Messages.UserSelected);
+        }
+
+        public IDataResult<User> GetByMail(string Email)
+        {
+            return new SuccessDataResult<User>(_userDal.GetBy(user => user.Email == Email), Messages.UserWithThisMail);
+        }
+
+        public IDataResult<List<OperationClaim>> GetClaims(User user)
+        {
+            return new SuccessDataResult<List<OperationClaim>>(_userDal.GetClaims(user),Messages.ClaimsCrossChecked);
         }
 
         public IDataResult<List<User>> GetlAll()
@@ -46,5 +56,7 @@ namespace Business.Concreate
             _userDal.Update(user);
             return new SuccessResult(Messages.UserUpdated);
         }
+
+
     }
 }
